@@ -1,0 +1,19 @@
+patch:
+  ascii_composer/switch_key/Shift_L: commit_code
+  ascii_composer/switch_key/Shift_R: commit_code
+  switches:
+    - name: ascii_mode
+      states: [ 中, A ]
+      reset: 1
+    - name: ascii_punct # 中英标点
+      states: [ ¥, $ ]
+      reset: 0
+    - name: traditionalization
+      states: [ 简, 繁 ]
+      reset: 0
+    - name: emoji
+      states: [ 💀, 😄 ]
+      reset: 1
+    - name: full_shape
+      states: [ 半角, 全角 ]
+      reset: 0
