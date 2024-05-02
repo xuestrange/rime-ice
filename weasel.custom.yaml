@@ -1,8 +1,8 @@
 patch:
   style:
     # 哪个好用一点
-    color_scheme: dracula
-    # color_scheme: md
+    # color_scheme: 2077
+    color_scheme: md
 
     font_face: "Segoe UI Emoji:80, LXGW Wenkai"
     font_point: 18 # 全局字体大小
@@ -107,4 +107,3 @@ patch:
       candidate_text_color: "0x575655"
       label_color: "0x8C8B8A"
       comment_text_color: "0x575655"
-
